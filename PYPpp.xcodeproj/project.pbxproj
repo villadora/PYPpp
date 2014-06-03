@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8278931936E65D00CACDEF /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278921936E65B00CACDEF /* iflyMSC.framework */; };
+		BD8278951936E6A400CACDEF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278941936E6A400CACDEF /* AdSupport.framework */; };
+		BD8278971936E6B300CACDEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278961936E6B300CACDEF /* AVFoundation.framework */; };
+		BD8278991936E6BA00CACDEF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278981936E6BA00CACDEF /* AddressBook.framework */; };
+		BD82789B1936E6C700CACDEF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD82789A1936E6C700CACDEF /* SystemConfiguration.framework */; };
+		BD82789D1936E6D100CACDEF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD82789C1936E6D100CACDEF /* AudioToolbox.framework */; };
+		BD82789F1937000B00CACDEF /* start_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD82789E1937000A00CACDEF /* start_bg.jpeg */; };
+		BD8278A3193703FB00CACDEF /* VDGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8278A1193703FB00CACDEF /* VDGameViewController.m */; };
+		BD8278A4193703FC00CACDEF /* VDGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8278A2193703FB00CACDEF /* VDGameViewController.xib */; };
+		BD8278A6193769BE00CACDEF /* game_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD8278A5193769BE00CACDEF /* game_bg.jpeg */; };
+		BD8278BC1937704900CACDEF /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8278B01937704900CACDEF /* ChineseToPinyinResource.m */; };
+		BD8278BD1937704900CACDEF /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8278B21937704900CACDEF /* HanyuPinyinOutputFormat.m */; };
+		BD8278BE1937704900CACDEF /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8278B41937704900CACDEF /* NSString+PinYin4Cocoa.m */; };
+		BD8278BF1937704900CACDEF /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8278B71937704900CACDEF /* PinyinFormatter.m */; };
+		BD8278C01937704900CACDEF /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8278B91937704900CACDEF /* PinyinHelper.m */; };
+		BD8278C11937704900CACDEF /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD8278BB1937704900CACDEF /* unicode_to_hanyu_pinyin.txt */; };
+		BD83F0421930D8980027499A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83F0411930D8980027499A /* Foundation.framework */; };
+		BD83F0441930D8980027499A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83F0431930D8980027499A /* CoreGraphics.framework */; };
+		BD83F0461930D8980027499A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83F0451930D8980027499A /* UIKit.framework */; };
+		BD83F04C1930D8980027499A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD83F04A1930D8980027499A /* InfoPlist.strings */; };
+		BD83F04E1930D8980027499A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD83F04D1930D8980027499A /* main.m */; };
+		BD83F0521930D8980027499A /* VDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD83F0511930D8980027499A /* VDAppDelegate.m */; };
+		BD83F0541930D8980027499A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD83F0531930D8980027499A /* Images.xcassets */; };
+		BD83F05B1930D8990027499A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83F05A1930D8990027499A /* XCTest.framework */; };
+		BD83F05C1930D8990027499A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83F0411930D8980027499A /* Foundation.framework */; };
+		BD83F05D1930D8990027499A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83F0451930D8980027499A /* UIKit.framework */; };
+		BD83F0651930D8990027499A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD83F0631930D8990027499A /* InfoPlist.strings */; };
+		BD83F0671930D8990027499A /* PYPppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD83F0661930D8990027499A /* PYPppTests.m */; };
+		BD83F0721930DA5B0027499A /* VDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD83F0711930DA5B0027499A /* VDBaseViewController.m */; };
+		BD83F0761930DAB40027499A /* VDStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD83F0741930DAB40027499A /* VDStartViewController.m */; };
+		BD83F0771930DAB40027499A /* VDStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD83F0751930DAB40027499A /* VDStartViewController.xib */; };
+		BD83F0791932265A0027499A /* btn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD83F0781932265A0027499A /* btn.jpg */; };
+		BDD8B8E6193D6E1B005FD3D8 /* VDGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD8B8E5193D6E1B005FD3D8 /* VDGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD83F05E1930D8990027499A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD83F0361930D8980027499A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD83F03D1930D8980027499A;
+			remoteInfo = PYPpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD8278921936E65B00CACDEF /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../../../Downloads/iOS_ui_1.065_53809253/lib/iflyMSC.framework; sourceTree = "<group>"; };
+		BD8278941936E6A400CACDEF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BD8278961936E6B300CACDEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BD8278981936E6BA00CACDEF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BD82789A1936E6C700CACDEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BD82789C1936E6D100CACDEF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD82789E1937000A00CACDEF /* start_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start_bg.jpeg; sourceTree = "<group>"; };
+		BD8278A0193703FB00CACDEF /* VDGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDGameViewController.h; sourceTree = "<group>"; };
+		BD8278A1193703FB00CACDEF /* VDGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDGameViewController.m; sourceTree = "<group>"; };
+		BD8278A2193703FB00CACDEF /* VDGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDGameViewController.xib; sourceTree = "<group>"; };
+		BD8278A5193769BE00CACDEF /* game_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = game_bg.jpeg; sourceTree = "<group>"; };
+		BD8278AF1937704900CACDEF /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		BD8278B01937704900CACDEF /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		BD8278B11937704900CACDEF /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		BD8278B21937704900CACDEF /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		BD8278B31937704900CACDEF /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		BD8278B41937704900CACDEF /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		BD8278B51937704900CACDEF /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		BD8278B61937704900CACDEF /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		BD8278B71937704900CACDEF /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		BD8278B81937704900CACDEF /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		BD8278B91937704900CACDEF /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		BD8278BB1937704900CACDEF /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		BD8278C219377F7B00CACDEF /* Definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
+		BD83F03E1930D8980027499A /* PYPpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYPpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD83F0411930D8980027499A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD83F0431930D8980027499A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD83F0451930D8980027499A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD83F0491930D8980027499A /* PYPpp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PYPpp-Info.plist"; sourceTree = "<group>"; };
+		BD83F04B1930D8980027499A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD83F04D1930D8980027499A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD83F04F1930D8980027499A /* PYPpp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PYPpp-Prefix.pch"; sourceTree = "<group>"; };
+		BD83F0501930D8980027499A /* VDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDAppDelegate.h; sourceTree = "<group>"; };
+		BD83F0511930D8980027499A /* VDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDAppDelegate.m; sourceTree = "<group>"; };
+		BD83F0531930D8980027499A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD83F0591930D8990027499A /* PYPppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYPppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD83F05A1930D8990027499A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD83F0621930D8990027499A /* PYPppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PYPppTests-Info.plist"; sourceTree = "<group>"; };
+		BD83F0641930D8990027499A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD83F0661930D8990027499A /* PYPppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYPppTests.m; sourceTree = "<group>"; };
+		BD83F0701930DA5B0027499A /* VDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDBaseViewController.h; sourceTree = "<group>"; };
+		BD83F0711930DA5B0027499A /* VDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDBaseViewController.m; sourceTree = "<group>"; };
+		BD83F0731930DAB40027499A /* VDStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDStartViewController.h; sourceTree = "<group>"; };
+		BD83F0741930DAB40027499A /* VDStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDStartViewController.m; sourceTree = "<group>"; };
+		BD83F0751930DAB40027499A /* VDStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDStartViewController.xib; sourceTree = "<group>"; };
+		BD83F0781932265A0027499A /* btn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btn.jpg; sourceTree = "<group>"; };
+		BDD8B8E4193D6E1B005FD3D8 /* VDGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDGame.h; sourceTree = "<group>"; };
+		BDD8B8E5193D6E1B005FD3D8 /* VDGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD83F03B1930D8980027499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD82789D1936E6D100CACDEF /* AudioToolbox.framework in Frameworks */,
+				BD82789B1936E6C700CACDEF /* SystemConfiguration.framework in Frameworks */,
+				BD8278991936E6BA00CACDEF /* AddressBook.framework in Frameworks */,
+				BD8278971936E6B300CACDEF /* AVFoundation.framework in Frameworks */,
+				BD8278951936E6A400CACDEF /* AdSupport.framework in Frameworks */,
+				BD8278931936E65D00CACDEF /* iflyMSC.framework in Frameworks */,
+				BD83F0441930D8980027499A /* CoreGraphics.framework in Frameworks */,
+				BD83F0461930D8980027499A /* UIKit.framework in Frameworks */,
+				BD83F0421930D8980027499A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD83F0561930D8990027499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83F05B1930D8990027499A /* XCTest.framework in Frameworks */,
+				BD83F05D1930D8990027499A /* UIKit.framework in Frameworks */,
+				BD83F05C1930D8990027499A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD8278AD1937704900CACDEF /* PinYin4Objc */ = {
+			isa = PBXGroup;
+			children = (
+				BD8278AE1937704900CACDEF /* Classes */,
+				BD8278BA1937704900CACDEF /* Resources */,
+			);
+			path = PinYin4Objc;
+			sourceTree = "<group>";
+		};
+		BD8278AE1937704900CACDEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD8278AF1937704900CACDEF /* ChineseToPinyinResource.h */,
+				BD8278B01937704900CACDEF /* ChineseToPinyinResource.m */,
+				BD8278B11937704900CACDEF /* HanyuPinyinOutputFormat.h */,
+				BD8278B21937704900CACDEF /* HanyuPinyinOutputFormat.m */,
+				BD8278B31937704900CACDEF /* NSString+PinYin4Cocoa.h */,
+				BD8278B41937704900CACDEF /* NSString+PinYin4Cocoa.m */,
+				BD8278B51937704900CACDEF /* PinYin4Objc.h */,
+				BD8278B61937704900CACDEF /* PinyinFormatter.h */,
+				BD8278B71937704900CACDEF /* PinyinFormatter.m */,
+				BD8278B81937704900CACDEF /* PinyinHelper.h */,
+				BD8278B91937704900CACDEF /* PinyinHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BD8278BA1937704900CACDEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD8278BB1937704900CACDEF /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD83F0351930D8980027499A = {
+			isa = PBXGroup;
+			children = (
+				BD83F0471930D8980027499A /* PYPpp */,
+				BD83F0601930D8990027499A /* PYPppTests */,
+				BD83F0401930D8980027499A /* Frameworks */,
+				BD83F03F1930D8980027499A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD83F03F1930D8980027499A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD83F03E1930D8980027499A /* PYPpp.app */,
+				BD83F0591930D8990027499A /* PYPppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD83F0401930D8980027499A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD82789C1936E6D100CACDEF /* AudioToolbox.framework */,
+				BD82789A1936E6C700CACDEF /* SystemConfiguration.framework */,
+				BD8278981936E6BA00CACDEF /* AddressBook.framework */,
+				BD8278961936E6B300CACDEF /* AVFoundation.framework */,
+				BD8278941936E6A400CACDEF /* AdSupport.framework */,
+				BD8278921936E65B00CACDEF /* iflyMSC.framework */,
+				BD83F0411930D8980027499A /* Foundation.framework */,
+				BD83F0431930D8980027499A /* CoreGraphics.framework */,
+				BD83F0451930D8980027499A /* UIKit.framework */,
+				BD83F05A1930D8990027499A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD83F0471930D8980027499A /* PYPpp */ = {
+			isa = PBXGroup;
+			children = (
+				BD83F0501930D8980027499A /* VDAppDelegate.h */,
+				BD83F0511930D8980027499A /* VDAppDelegate.m */,
+				BD83F0701930DA5B0027499A /* VDBaseViewController.h */,
+				BD83F0711930DA5B0027499A /* VDBaseViewController.m */,
+				BD83F0731930DAB40027499A /* VDStartViewController.h */,
+				BD83F0741930DAB40027499A /* VDStartViewController.m */,
+				BD83F0751930DAB40027499A /* VDStartViewController.xib */,
+				BD8278A0193703FB00CACDEF /* VDGameViewController.h */,
+				BD8278A1193703FB00CACDEF /* VDGameViewController.m */,
+				BD8278A2193703FB00CACDEF /* VDGameViewController.xib */,
+				BDD8B8E4193D6E1B005FD3D8 /* VDGame.h */,
+				BDD8B8E5193D6E1B005FD3D8 /* VDGame.m */,
+				BD8278C219377F7B00CACDEF /* Definition.h */,
+				BD83F0531930D8980027499A /* Images.xcassets */,
+				BD8278AD1937704900CACDEF /* PinYin4Objc */,
+				BD83F0481930D8980027499A /* Supporting Files */,
+			);
+			path = PYPpp;
+			sourceTree = "<group>";
+		};
+		BD83F0481930D8980027499A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD8278A5193769BE00CACDEF /* game_bg.jpeg */,
+				BD82789E1937000A00CACDEF /* start_bg.jpeg */,
+				BD83F0781932265A0027499A /* btn.jpg */,
+				BD83F0491930D8980027499A /* PYPpp-Info.plist */,
+				BD83F04A1930D8980027499A /* InfoPlist.strings */,
+				BD83F04D1930D8980027499A /* main.m */,
+				BD83F04F1930D8980027499A /* PYPpp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD83F0601930D8990027499A /* PYPppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD83F0661930D8990027499A /* PYPppTests.m */,
+				BD83F0611930D8990027499A /* Supporting Files */,
+			);
+			path = PYPppTests;
+			sourceTree = "<group>";
+		};
+		BD83F0611930D8990027499A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD83F0621930D8990027499A /* PYPppTests-Info.plist */,
+				BD83F0631930D8990027499A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD83F03D1930D8980027499A /* PYPpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD83F06A1930D8990027499A /* Build configuration list for PBXNativeTarget "PYPpp" */;
+			buildPhases = (
+				BD83F03A1930D8980027499A /* Sources */,
+				BD83F03B1930D8980027499A /* Frameworks */,
+				BD83F03C1930D8980027499A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYPpp;
+			productName = PYPpp;
+			productReference = BD83F03E1930D8980027499A /* PYPpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD83F0581930D8990027499A /* PYPppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD83F06D1930D8990027499A /* Build configuration list for PBXNativeTarget "PYPppTests" */;
+			buildPhases = (
+				BD83F0551930D8990027499A /* Sources */,
+				BD83F0561930D8990027499A /* Frameworks */,
+				BD83F0571930D8990027499A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD83F05F1930D8990027499A /* PBXTargetDependency */,
+			);
+			name = PYPppTests;
+			productName = PYPppTests;
+			productReference = BD83F0591930D8990027499A /* PYPppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD83F0361930D8980027499A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = villadora;
+				TargetAttributes = {
+					BD83F0581930D8990027499A = {
+						TestTargetID = BD83F03D1930D8980027499A;
+					};
+				};
+			};
+			buildConfigurationList = BD83F0391930D8980027499A /* Build configuration list for PBXProject "PYPpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD83F0351930D8980027499A;
+			productRefGroup = BD83F03F1930D8980027499A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD83F03D1930D8980027499A /* PYPpp */,
+				BD83F0581930D8990027499A /* PYPppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD83F03C1930D8980027499A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83F04C1930D8980027499A /* InfoPlist.strings in Resources */,
+				BD83F0771930DAB40027499A /* VDStartViewController.xib in Resources */,
+				BD8278A4193703FC00CACDEF /* VDGameViewController.xib in Resources */,
+				BD8278C11937704900CACDEF /* unicode_to_hanyu_pinyin.txt in Resources */,
+				BD83F0791932265A0027499A /* btn.jpg in Resources */,
+				BD83F0541930D8980027499A /* Images.xcassets in Resources */,
+				BD82789F1937000B00CACDEF /* start_bg.jpeg in Resources */,
+				BD8278A6193769BE00CACDEF /* game_bg.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD83F0571930D8990027499A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83F0651930D8990027499A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD83F03A1930D8980027499A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83F0721930DA5B0027499A /* VDBaseViewController.m in Sources */,
+				BD8278BC1937704900CACDEF /* ChineseToPinyinResource.m in Sources */,
+				BD8278BD1937704900CACDEF /* HanyuPinyinOutputFormat.m in Sources */,
+				BD8278A3193703FB00CACDEF /* VDGameViewController.m in Sources */,
+				BD83F0761930DAB40027499A /* VDStartViewController.m in Sources */,
+				BD8278BE1937704900CACDEF /* NSString+PinYin4Cocoa.m in Sources */,
+				BD8278C01937704900CACDEF /* PinyinHelper.m in Sources */,
+				BD83F0521930D8980027499A /* VDAppDelegate.m in Sources */,
+				BDD8B8E6193D6E1B005FD3D8 /* VDGame.m in Sources */,
+				BD8278BF1937704900CACDEF /* PinyinFormatter.m in Sources */,
+				BD83F04E1930D8980027499A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD83F0551930D8990027499A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83F0671930D8990027499A /* PYPppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD83F05F1930D8990027499A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD83F03D1930D8980027499A /* PYPpp */;
+			targetProxy = BD83F05E1930D8990027499A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD83F04A1930D8980027499A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD83F04B1930D8980027499A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD83F0631930D8990027499A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD83F0641930D8990027499A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD83F0681930D8990027499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD83F0691930D8990027499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD83F06B1930D8990027499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/villa/Downloads/iOS_ui_1.065_53809253/lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPpp/PYPpp-Prefix.pch";
+				INFOPLIST_FILE = "PYPpp/PYPpp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD83F06C1930D8990027499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/villa/Downloads/iOS_ui_1.065_53809253/lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPpp/PYPpp-Prefix.pch";
+				INFOPLIST_FILE = "PYPpp/PYPpp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD83F06E1930D8990027499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PYPpp.app/PYPpp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPpp/PYPpp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PYPppTests/PYPppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD83F06F1930D8990027499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PYPpp.app/PYPpp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPpp/PYPpp-Prefix.pch";
+				INFOPLIST_FILE = "PYPppTests/PYPppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD83F0391930D8980027499A /* Build configuration list for PBXProject "PYPpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD83F0681930D8990027499A /* Debug */,
+				BD83F0691930D8990027499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD83F06A1930D8990027499A /* Build configuration list for PBXNativeTarget "PYPpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD83F06B1930D8990027499A /* Debug */,
+				BD83F06C1930D8990027499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD83F06D1930D8990027499A /* Build configuration list for PBXNativeTarget "PYPppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD83F06E1930D8990027499A /* Debug */,
+				BD83F06F1930D8990027499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD83F0361930D8980027499A /* Project object */;
+}
