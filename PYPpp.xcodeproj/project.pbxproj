@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD8278931936E65D00CACDEF /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278921936E65B00CACDEF /* iflyMSC.framework */; };
+		BD411527194194DD00E7EAEC /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD411526194194DC00E7EAEC /* iflyMSC.framework */; };
 		BD8278951936E6A400CACDEF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278941936E6A400CACDEF /* AdSupport.framework */; };
 		BD8278971936E6B300CACDEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278961936E6B300CACDEF /* AVFoundation.framework */; };
 		BD8278991936E6BA00CACDEF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8278981936E6BA00CACDEF /* AddressBook.framework */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD411526194194DC00E7EAEC /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = lib/iflyMSC.framework; sourceTree = "<group>"; };
 		BD8278921936E65B00CACDEF /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../../../Downloads/iOS_ui_1.065_53809253/lib/iflyMSC.framework; sourceTree = "<group>"; };
 		BD8278941936E6A400CACDEF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		BD8278961936E6B300CACDEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -108,12 +109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD411527194194DD00E7EAEC /* iflyMSC.framework in Frameworks */,
 				BD82789D1936E6D100CACDEF /* AudioToolbox.framework in Frameworks */,
 				BD82789B1936E6C700CACDEF /* SystemConfiguration.framework in Frameworks */,
 				BD8278991936E6BA00CACDEF /* AddressBook.framework in Frameworks */,
 				BD8278971936E6B300CACDEF /* AVFoundation.framework in Frameworks */,
 				BD8278951936E6A400CACDEF /* AdSupport.framework in Frameworks */,
-				BD8278931936E65D00CACDEF /* iflyMSC.framework in Frameworks */,
 				BD83F0441930D8980027499A /* CoreGraphics.framework in Frameworks */,
 				BD83F0461930D8980027499A /* UIKit.framework in Frameworks */,
 				BD83F0421930D8980027499A /* Foundation.framework in Frameworks */,
@@ -190,6 +191,7 @@
 		BD83F0401930D8980027499A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD411526194194DC00E7EAEC /* iflyMSC.framework */,
 				BD82789C1936E6D100CACDEF /* AudioToolbox.framework */,
 				BD82789A1936E6C700CACDEF /* SystemConfiguration.framework */,
 				BD8278981936E6BA00CACDEF /* AddressBook.framework */,
@@ -490,8 +492,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/villa/Downloads/iOS_ui_1.065_53809253/lib,
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PYPpp/PYPpp-Prefix.pch";
@@ -508,8 +510,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/villa/Downloads/iOS_ui_1.065_53809253/lib,
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PYPpp/PYPpp-Prefix.pch";
